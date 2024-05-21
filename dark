@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة Dark الشخصية</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 200px;
+            height: auto;
+        }
+        .videos iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 350px;
+        }
+        .subscription {
+            background-color: #333333;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dark - منشئ محتوى تعليم الرسم</h1>
+        <p>مرحبا بكم في صفحتي الشخصية</p>
+    </header>
+    <nav>
+        <a href="#gallery">أعمالي الفنية</a>
+        <a href="#videos">فيديوهات تعليمية</a>
+        <a href="#subscription">دورات الرسم</a>
+    </nav>
+    <div class="content">
+        <section id="gallery">
+            <h2>أعمالي الفنية</h2>
+            <div class="gallery">
+                <!-- استبدل هذه الروابط بصور أعمالك الفنية -->
+                <img src="artwork1.jpg" alt="Artwork 1">
+                <img src="artwork2.jpg" alt="Artwork 2">
+                <img src="artwork3.jpg" alt="Artwork 3">
+            </div>
+        </section>
+        <section id="videos">
+            <h2>فيديوهات تعليمية</h2>
+            <div class="videos">
+                <!-- استبدل هذا الرابط بفيديوهاتك التعليمية -->
+                <iframe src="https://www.youtube.com/embed/example_video" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="subscription">
+            <h2>دورات الرسم</h2>
+            <div class="subscription">
+                <p>اشترك في دورات الرسم الخاصة بي للحصول على محتوى حصري وتعليم متميز!</p>
+                <!-- يمكنك إضافة زر للاشتراك أو رابط لمزيد من المعلومات -->
+                <button onclick="alert('شكرا لاشتراكك!')">اشترك الآن</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
